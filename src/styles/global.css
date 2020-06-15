@@ -1,0 +1,30 @@
+/* Color palette */
+:root {
+  --text: #0e1111;
+  --placeholder: #d0d3d7;
+  --highlight: #fff651;
+}
+
+.footer {
+  font-size: 0.8rem;
+}
+
+a:hover {
+  text-decoration: initial;
+  font-style: italic;
+  transition: all 1s;
+}
+
+.intro {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 150px) {
+  .intro {
+    display: contents;
+  }
+}
